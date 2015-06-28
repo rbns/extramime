@@ -4,7 +4,9 @@ extramime adds mime type definitions from nginx to the go mime package
 
 ## usage
 ### just using
-an import of this package should be enough
+importing of this package should be enough:
+
+	import _ "github.com/rbns/extramime"
 
 ### regenerate mime type list
 to regenerate the mime type list you can use the mimeextract tool.
